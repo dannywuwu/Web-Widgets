@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>js-Sketchpad</title>
+</head>
+<body>
+
+  <div class="root">
+    <div id="container">
+    </div>
+  </div>
+
+
+  <script>
+  document.body.onload = addGrid;
+
+  draw();
+
+  function createDiv(text){
+    let div = document.createElement("div");
+    div.appendChild(document.createTextNode(text));
+    return div;
+  }
+
+  function addGrid() {
+    let docFrag = document.createDocumentFragment();
+
+    for(let i = 0; i < 256; i++){
+      let div = createDiv('');
+      docFrag.appendChild(div);
+    }
+    document.getElementById("container").appendChild(docFrag);
+  }
+
+  function draw() {
+    let container = document.getElementById("container");
+
+    container.addEventListener("mouseover", event => {
+      // highlight the mouseover target
+      event.target.style.backgroundColor = "orange";
+    }, false);
+  }
+
+
+  </script>
+</body>
+</html>
