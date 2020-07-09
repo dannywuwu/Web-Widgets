@@ -3,9 +3,9 @@
 - A weather widget created using Vue.js and the Openweathermap API (key not included!)
 - Created with the help of [Tyler Potts' Vue Weather App Tutorial](https://www.youtube.com/watch?v=JLc-hWsPTUY)
 
-![Warm](./screenshots/warmsanfran.PNG)
+![Warm](./screenshots/WarmSanFran.PNG)
 
-![Cold](./screenshots/coldantarctica.PNG)
+![Cold](./screenshots/ColdAntarctica.PNG)
 
 ## Project setup
 ```
