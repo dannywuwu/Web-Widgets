@@ -4,11 +4,11 @@
 - Used Firestore to save and add new tasks
 - Created with the help of [The Net Ninja's Vuetify tutorial playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5)
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.PNG)
 
-![Projects](./screenshots/projects.png)
+![Projects](./screenshots/projects.PNG)
 
-![Team](./screenshots/team.png)
+![Team](./screenshots/team.PNG)
 
 ## Project setup
 ```
