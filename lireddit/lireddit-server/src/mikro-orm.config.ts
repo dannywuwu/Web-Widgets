@@ -11,5 +11,6 @@ export default {
   entities: [Post],
   dbName: "lireddit",
   type: "postgresql",
+  pass: process.env.PG_PASS,
   debug: !__prod__,
 } as Parameters<typeof MikroORM.init>[0];
