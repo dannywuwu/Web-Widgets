@@ -6,3 +6,7 @@
 
 - TS ORM with PostgreSQL
 - Migrations
+
+## dotenv
+
+- Postgres password
