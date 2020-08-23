@@ -6,10 +6,6 @@ import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import { buildSchema } from "type-graphql";
 import { HelloResolver } from "./resolvers/hello";
-// import * as dotenv from "dotenv";
-
-// load .env file
-// dotenv.config();
 
 const main = async () => {
   // connect to db

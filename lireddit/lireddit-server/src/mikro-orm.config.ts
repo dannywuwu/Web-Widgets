@@ -12,4 +12,5 @@ export default {
   dbName: "lireddit",
   type: "postgresql",
   debug: !__prod__,
+  password: process.env.PG_PASS,
 } as Parameters<typeof MikroORM.init>[0];
